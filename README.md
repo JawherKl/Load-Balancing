@@ -85,9 +85,9 @@ Load balancers themselves can become a single point of failure. To mitigate this
 
 ## Examples of Load Balancing Solutions
 
-- **Amazon Elastic Load Balancing**
-- **Azure Load Balancing**
-- **Google Cloud Platform (GCP) Load Balancing**
-- **DigitalOcean Load Balancer**
-- **Nginx**
-- **HAProxy**
+- [**Amazon Elastic Load Balancing**](https://aws.amazon.com/fr/elasticloadbalancing/)
+- [**Azure Load Balancing**](https://github.com/Azure/terraform-azurerm-loadbalancer)
+- [**Google Cloud Platform (GCP) Load Balancing**](https://cloud.google.com/load-balancing?hl=fr)
+- [**DigitalOcean Load Balancer**](https://www.digitalocean.com/products/load-balancers)
+- [**Nginx**](https://github.com/nginx/nginx)
+- [**HAProxy**](https://github.com/haproxy/haproxy)
