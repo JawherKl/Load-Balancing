@@ -2,6 +2,12 @@
 
 Load balancing allows us to distribute incoming network traffic across multiple resources, ensuring high availability and reliability by directing requests to resources that are online. This offers the flexibility to add or remove resources based on demand.
 
+![load-balancer](load-balancer.png)
+
+For additional scalability and redundancy, we can try to load balance at each layer of our system:
+
+![load-balancer-layers](load-balancer-layers.png)
+
 ## Why Load Balancing?
 
 Modern high-traffic websites often need to handle hundreds of thousands or even millions of concurrent requests. To meet this demand cost-effectively, adding more servers is generally the best practice. A load balancer sits in front of these servers and routes client requests across all available servers. This ensures no single server is overworked, and if one server goes down, the load balancer redirects traffic to others. It also automatically begins sending requests to new servers as they are added.
@@ -59,6 +65,8 @@ Commonly used routing algorithms include:
 ## Redundant Load Balancers
 
 Load balancers themselves can become a single point of failure. To mitigate this, a second or additional load balancers can be set up in cluster mode. In the event of a failure, a passive load balancer can take over.
+
+![redundant-load-balancer](redundant-load-balancer.png)
 
 ## Features of Load Balancers
 
